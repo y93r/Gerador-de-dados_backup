@@ -3,8 +3,8 @@ from openpyxl import load_workbook
 from datetime import datetime
 
 # Caminho do arquivo da planilha original e da matriz
-arquivo_planilha = r'C:\Users\Usuário\Downloads\Cadastro_funcionarios\Informacoes.xlsx'
-arquivo_matriz = r'C:\Users\Usuário\Downloads\Cadastro_funcionarios\Matriz.xlsx'
+arquivo_planilha = r'C:\Users\Usuário\Documentos\Cadastro_funcionarios\Informacoes.xlsx'
+arquivo_matriz = r'C:\Users\Usuário\Documentos\Cadastro_funcionarios\Matriz.xlsx'
 
 # Carrega a planilha original para um DataFrame
 df_original = pd.read_excel(arquivo_planilha)
