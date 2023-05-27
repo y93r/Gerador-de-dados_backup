@@ -1,5 +1,5 @@
 # Gerador-de-dados_backup
-**Gerador de dados ficticios**
+**Gerador de dados ficticios**<br />
 Criar uma base de dados ficticios para simulação:
 - Utilização da bibliotca Faker com a localização definida como 'pt_BR' para gerar dados aleatórios como nome, endereço completo, CPF e data de admissão;
 - Um loop, que será executado de acordo com a quantidadde de vezes que desejar, os dados são gerados aleatoriamente para cada iteração;
@@ -9,7 +9,7 @@ Criar uma base de dados ficticios para simulação:
 - Por fim, é criado um DataFrame chamado utilizando o pandas, com as colunas definidas como ['Nome', 'Endereço', 'CPF', 'Data de Admissão'] e os dados gerados anteriormente.
 - O DataFrame é salvo em um arquivo Excel utilizando o método to_excel() do pandas e o parâmetro index=False é usado para não incluir o índice do DataFrame no arquivo Excel.
 
-**Tabela filtrada**
+**Tabela filtrada**<br />
 Objetivo de criar uma planilha com os dados filtrados criando um backuo para deixar a planilha original menos pesada de informações:
 - Carrega uma planilha original no formato Excel.
 - Filtra os dados com base em uma data limite.
